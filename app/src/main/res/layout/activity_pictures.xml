@@ -11,7 +11,7 @@
         style="@style/ButtonStyle"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="240dp"
+        android:layout_marginBottom="32dp"
         android:text="@string/button_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,4 +27,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivImage1"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivImage2"
+        app:layout_constraintStart_toStartOf="@+id/ivImage2"
+        app:layout_constraintTop_toBottomOf="@+id/tvCategory"
+        tools:srcCompat="@drawable/gas_gas" />
+
+    <ImageView
+        android:id="@+id/ivImage2"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage1"
+        app:srcCompat="@drawable/audi_a3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivImage2"
+        app:layout_constraintStart_toStartOf="@+id/ivImage2"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage2"
+        app:srcCompat="@drawable/yamaha_banshee" />
 </androidx.constraintlayout.widget.ConstraintLayout>

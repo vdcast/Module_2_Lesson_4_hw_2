@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvCaption"
+        style="@style/CaptionStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="@string/captionName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btPictures"
+        style="@style/ButtonStyle"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/pictures"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCaption" />
+
+    <Button
+        android:id="@+id/btAnecdotes"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/anecdotes"
+        app:layout_constraintEnd_toEndOf="@+id/btPictures"
+        app:layout_constraintStart_toStartOf="@+id/btPictures"
+        app:layout_constraintTop_toBottomOf="@+id/btPictures" />
+
+    <Button
+        android:id="@+id/btSigns"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/signs"
+        app:layout_constraintEnd_toEndOf="@+id/btAnecdotes"
+        app:layout_constraintStart_toStartOf="@+id/btAnecdotes"
+        app:layout_constraintTop_toBottomOf="@+id/btAnecdotes" />
+
+    <Button
+        android:id="@+id/btQuotes"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/quotes"
+        app:layout_constraintEnd_toEndOf="@+id/btSigns"
+        app:layout_constraintStart_toStartOf="@+id/btSigns"
+        app:layout_constraintTop_toBottomOf="@+id/btSigns" />
+
+    <Button
+        android:id="@+id/btImagesOfSea"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/images_of_sea"
+        app:layout_constraintEnd_toEndOf="@+id/btQuotes"
+        app:layout_constraintStart_toStartOf="@+id/btQuotes"
+        app:layout_constraintTop_toBottomOf="@+id/btQuotes" />
+
+    <Button
+        android:id="@+id/btImagesOfEmotions"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/images_of_emotions"
+        app:layout_constraintEnd_toEndOf="@+id/btImagesOfSea"
+        app:layout_constraintStart_toStartOf="@+id/btImagesOfSea"
+        app:layout_constraintTop_toBottomOf="@+id/btImagesOfSea" />
+
+    <Button
+        android:id="@+id/btAboutAuthor"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/about_author"
+        app:layout_constraintEnd_toEndOf="@+id/btImagesOfEmotions"
+        app:layout_constraintStart_toStartOf="@+id/btImagesOfEmotions"
+        app:layout_constraintTop_toBottomOf="@+id/btImagesOfEmotions" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

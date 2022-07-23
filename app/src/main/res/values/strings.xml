@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Module_2_Lesson_4_hw_2</string>
+    <string name="captionName">All by 3 :)</string>
+    <string name="pictures">Pictures</string>
+    <string name="anecdotes">Anecdotes</string>
+    <string name="signs">Signs</string>
+    <string name="quotes">Quotes</string>
+    <string name="images_of_sea">Images of sea</string>
+    <string name="images_of_emotions">Images of emotions</string>
+    <string name="about_author">About author</string>
+    <string name="button_back">Back</string>
+
+
+</resources>

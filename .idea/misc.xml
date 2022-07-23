@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/drawable/bt_bg.xml" value="0.4732456140350877" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/layout/activity_about_author.xml" value="0.45964912280701753" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/layout/activity_anecdotes.xml" value="0.45964912280701753" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/layout/activity_images_of_emotions.xml" value="0.45964912280701753" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/layout/activity_images_of_sea.xml" value="0.45964912280701753" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/layout/activity_main.xml" value="0.45964912280701753" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/layout/activity_pictures.xml" value="0.45964912280701753" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/layout/activity_quotes.xml" value="0.45964912280701753" />
+        <entry key="..\:/111/DEV/PORTFOLIO/Module_2/Module_2_Lesson_4_hw_2/app/src/main/res/layout/activity_signs.xml" value="0.45964912280701753" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

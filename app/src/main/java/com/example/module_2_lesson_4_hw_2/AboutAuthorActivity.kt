@@ -3,6 +3,7 @@ package com.example.module_2_lesson_4_hw_2
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_about_author.*
 import kotlinx.android.synthetic.main.activity_pictures.*
 
 class AboutAuthorActivity : AppCompatActivity() {
@@ -10,7 +11,7 @@ class AboutAuthorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_author)
 
-        btBack.setOnClickListener {
+        btBackAboutAuthor.setOnClickListener {
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }

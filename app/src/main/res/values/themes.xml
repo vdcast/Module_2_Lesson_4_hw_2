@@ -16,17 +16,23 @@
     </style>
 
     <style name="ButtonStyle">
-        <item name="android:textSize">14dp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/button_text</item>
         <item name="android:background">@drawable/bt_bg</item>
         <item name="android:padding">8dp</item>
         <item name="android:textStyle">italic</item>
     </style>
-    <style name="CaptionStyle">
-        <item name="android:textSize">24dp</item>
+    <style name="CaptionTextStyle">
+        <item name="android:textSize">24sp</item>
         <item name="android:padding">8dp</item>
         <item name="android:textColor">@color/caption_text</item>
         <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">@color/text</item>
+
     </style>
 
 </resources>

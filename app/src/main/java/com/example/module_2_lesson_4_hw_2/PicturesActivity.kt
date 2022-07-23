@@ -10,7 +10,7 @@ class PicturesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pictures)
 
-        btBack.setOnClickListener {
+        btBackPictures.setOnClickListener {
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }

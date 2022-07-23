@@ -12,4 +12,5 @@
     <color name="button_background">#F10E3C</color>
     <color name="activity_background">#FFE0E7</color>
     <color name="caption_text">#3A3A3A</color>
+    <color name="text">#606060</color>
 </resources>

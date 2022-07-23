@@ -7,7 +7,7 @@
     tools:context=".PicturesActivity">
 
     <Button
-        android:id="@+id/btBack"
+        android:id="@+id/btBackPictures"
         style="@style/ButtonStyle"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/tvCategory"
-        style="@style/CaptionStyle"
+        style="@style/CaptionTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -30,14 +30,11 @@
 
     <ImageView
         android:id="@+id/ivImage"
-        android:layout_width="0dp"
+        android:layout_width="320dp"
         android:layout_height="160dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvCategory"
+        app:layout_constraintStart_toStartOf="@+id/tvCategory"
         app:layout_constraintTop_toBottomOf="@+id/tvCategory"
         app:srcCompat="@drawable/gas_gas" />
 
@@ -45,11 +42,9 @@
         android:id="@+id/ivImage2"
         android:layout_width="0dp"
         android:layout_height="160dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ivImage"
+        app:layout_constraintStart_toStartOf="@+id/ivImage"
         app:layout_constraintTop_toBottomOf="@+id/ivImage"
         app:srcCompat="@drawable/audi_a3" />
 

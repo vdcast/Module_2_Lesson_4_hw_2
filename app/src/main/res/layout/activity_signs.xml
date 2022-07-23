@@ -7,11 +7,11 @@
     tools:context=".SignsActivity">
 
     <Button
-        android:id="@+id/btBack"
+        android:id="@+id/btBackSigns"
         style="@style/ButtonStyle"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="240dp"
+        android:layout_marginBottom="32dp"
         android:text="@string/button_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/tvCategory"
-        style="@style/CaptionStyle"
+        style="@style/CaptionTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -27,4 +27,40 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSigns1"
+        style="@style/TextStyle"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/signs_1"
+        app:layout_constraintEnd_toEndOf="@+id/tvCategory"
+        app:layout_constraintStart_toStartOf="@+id/tvCategory"
+        app:layout_constraintTop_toBottomOf="@+id/tvCategory" />
+
+    <TextView
+        android:id="@+id/tvSigns2"
+        style="@style/TextStyle"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/signs_2"
+        app:layout_constraintEnd_toEndOf="@+id/tvSigns1"
+        app:layout_constraintStart_toStartOf="@+id/tvSigns1"
+        app:layout_constraintTop_toBottomOf="@+id/tvSigns1" />
+
+    <TextView
+        android:id="@+id/tvSigns3"
+        style="@style/TextStyle"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/signs_3"
+        app:layout_constraintEnd_toEndOf="@+id/tvSigns2"
+        app:layout_constraintStart_toStartOf="@+id/tvSigns2"
+        app:layout_constraintTop_toBottomOf="@+id/tvSigns2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

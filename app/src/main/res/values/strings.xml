@@ -79,5 +79,16 @@
     <string name="signs_3">
         |3| Sparrows fly in flocks - for dry and clear weather.
     </string>
-
+    <string name="quotes_1">
+        |1| Life isn\'t about finding yourself. Life is about creating yourself.
+    </string>
+    <string name="quotes_2">
+        |2| Better keep yourself clean and bright, you are the window through which you must see the world.
+    </string>
+    <string name="quotes_3">
+        |3| Imagination is the beginning of creation. You imagine what you desire, you will what you imagine and at last you create what you will.
+    </string>
+    <string name="about_author_text">
+        Hello, my name is Elias. I\'m trying to figure out how to create the most modern app :)
+    </string>
 </resources>

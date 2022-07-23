@@ -27,4 +27,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivEmotions1"
+        android:layout_width="320dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvCategory"
+        app:layout_constraintStart_toStartOf="@+id/tvCategory"
+        app:layout_constraintTop_toBottomOf="@+id/tvCategory"
+        app:srcCompat="@drawable/thinking" />
+
+    <ImageView
+        android:id="@+id/ivEmotions2"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivEmotions1"
+        app:layout_constraintStart_toStartOf="@+id/ivEmotions1"
+        app:layout_constraintTop_toBottomOf="@+id/ivEmotions1"
+        app:srcCompat="@drawable/have_idea" />
+
+    <ImageView
+        android:id="@+id/ivEmotions3"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivEmotions2"
+        app:layout_constraintStart_toStartOf="@+id/ivEmotions2"
+        app:layout_constraintTop_toBottomOf="@+id/ivEmotions2"
+        app:srcCompat="@drawable/happy" />
 </androidx.constraintlayout.widget.ConstraintLayout>

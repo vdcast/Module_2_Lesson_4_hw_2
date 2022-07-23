@@ -27,4 +27,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTextAboutAuthor"
+        style="@style/TextStyle"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/about_author_text"
+        app:layout_constraintEnd_toEndOf="@+id/tvCategory"
+        app:layout_constraintStart_toStartOf="@+id/tvCategory"
+        app:layout_constraintTop_toBottomOf="@+id/tvCategory" />
 </androidx.constraintlayout.widget.ConstraintLayout>

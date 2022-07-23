@@ -27,4 +27,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivSea1"
+        android:layout_width="320dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvCategory"
+        app:layout_constraintStart_toStartOf="@+id/tvCategory"
+        app:layout_constraintTop_toBottomOf="@+id/tvCategory"
+        app:srcCompat="@drawable/black_sea" />
+
+    <ImageView
+        android:id="@+id/ivSea2"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivSea1"
+        app:layout_constraintStart_toStartOf="@+id/ivSea1"
+        app:layout_constraintTop_toBottomOf="@+id/ivSea1"
+        app:srcCompat="@drawable/sea_of_azov" />
+
+    <ImageView
+        android:id="@+id/ivSea3"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivSea2"
+        app:layout_constraintStart_toStartOf="@+id/ivSea2"
+        app:layout_constraintTop_toBottomOf="@+id/ivSea2"
+        app:srcCompat="@drawable/mediterranean_sea_cyprus" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,32 +29,32 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/ivImage"
+        android:id="@+id/ivPictures1"
         android:layout_width="320dp"
         android:layout_height="160dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="@+id/tvCategory"
         app:layout_constraintStart_toStartOf="@+id/tvCategory"
         app:layout_constraintTop_toBottomOf="@+id/tvCategory"
         app:srcCompat="@drawable/gas_gas" />
 
     <ImageView
-        android:id="@+id/ivImage2"
+        android:id="@+id/ivPictures2"
         android:layout_width="0dp"
         android:layout_height="160dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/ivImage"
-        app:layout_constraintStart_toStartOf="@+id/ivImage"
-        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:layout_constraintEnd_toEndOf="@+id/ivPictures1"
+        app:layout_constraintStart_toStartOf="@+id/ivPictures1"
+        app:layout_constraintTop_toBottomOf="@+id/ivPictures1"
         app:srcCompat="@drawable/audi_a3" />
 
     <ImageView
-        android:id="@+id/ivImage3"
+        android:id="@+id/ivPictures3"
         android:layout_width="0dp"
         android:layout_height="160dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/ivImage2"
-        app:layout_constraintStart_toStartOf="@+id/ivImage2"
-        app:layout_constraintTop_toBottomOf="@+id/ivImage2"
+        app:layout_constraintEnd_toEndOf="@+id/ivPictures2"
+        app:layout_constraintStart_toStartOf="@+id/ivPictures2"
+        app:layout_constraintTop_toBottomOf="@+id/ivPictures2"
         app:srcCompat="@drawable/yamaha_banshee" />
 </androidx.constraintlayout.widget.ConstraintLayout>

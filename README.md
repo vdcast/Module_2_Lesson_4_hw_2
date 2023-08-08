@@ -3,7 +3,7 @@
 
 Resources, styles.
 
-**Technical task:**
+**Task:**
 
 Write an application "All by three". In the main menu there are buttons: Pictures, Anecdotes, Signs, Quotes, Images of the sea, Images of emotions, About the author. In each section, respectively, there are three units of the necessary content plus the title of the section, the back button and, if necessary, other design elements. The section About the author is optional.
 
